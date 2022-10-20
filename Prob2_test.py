@@ -1,19 +1,6 @@
-import Prob2Lagrange as p2;
+import Prob2 as p2;
 
-def test_secant1():
-    eps =1e-6
-    ans = 12.0
-    a=(1,2,3,-4,5)
-    fa = (2,48,272,1182,2262)
-    x = -1
-    assert ans-eps <= p2.Lagrange(x,a,fa) <= ans+eps
-
-def test_secant2():
-    eps =1e-6
-    ans = 0.5
-    a=(0,2/3,1)
-    fa = (1,0.5,0)
-    x=-1
-    assert ans-eps <= p2.Lagrange(x,a,fa) <= ans+eps
-    
+def test_1():
+    ans = 'xxx split method is used to split xxx strings and store them in xxx list. xxx built-in method returns a list of xxx words in xxx string, using xxx “delimiter” as xxx delimiter string. If a delimiter is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and xxx result will contain no empty strings at xxx start or end if xxx string has leading or trailing whitespace.'
+    assert p2.Problem2() == ans
 
