@@ -1,10 +1,10 @@
 # Map Reduce any all 
 
-1. Map Replace the word 'The', case insensitive, with 'xxx' from a text
+## 1. Map Replace the word 'The', case insensitive, with 'xxx' from a text
 
 atext="""The split method is used to split the strings and store them in the list. The built-in method returns a list of the words in the string, using the “delimiter” as the delimiter string. If a delimiter is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace."""
 
-The Answer is
+### The Answer is
 
 anstext="""xxx split method is used to split xxx strings and store them in xxx list. xxx built-in method returns a list of xxx words in xxx string, using xxx “delimiter” as xxx delimiter string. If a delimiter is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and xxx result will contain no empty strings at xxx start or end if xxx string has leading or trailing whitespace."""
 
@@ -25,11 +25,11 @@ def Problem1():
         return 'still exist the word the'
 
 
-2. Reduce.  Replace the word 'The', case insensitive, with 'xxx' from a text
+## 2. Reduce.  Replace the word 'The', case insensitive, with 'xxx' from a text
 
 atext="""The split method is used to split the strings and store them in the list. The built-in method returns a list of the words in the string, using the “delimiter” as the delimiter string. If a delimiter is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and the result will contain no empty strings at the start or end if the string has leading or trailing whitespace."""
 
-The Answer is
+### The Answer is
 
 anstext="""xxx split method is used to split xxx strings and store them in xxx list. xxx built-in method returns a list of xxx words in xxx string, using xxx “delimiter” as xxx delimiter string. If a delimiter is not specified or is None, a different splitting algorithm is applied: runs of consecutive whitespace are regarded as a single separator, and xxx result will contain no empty strings at xxx start or end if xxx string has leading or trailing whitespace."""
 
