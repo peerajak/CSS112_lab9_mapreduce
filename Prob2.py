@@ -1,5 +1,5 @@
 #Reduce.  Replace the word 'The', case insensitive, with 'xxx' from a text
-def Lagrange(x,xi,yi):
+
 def Problem2():
     atext='The split method is used to split the strings and store them in the list.\
     The built-in method returns a list of the words in the string, using the “delimiter” as the delimiter string. \
